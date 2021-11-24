@@ -27,6 +27,7 @@ const IndexPage = () => {
   const node = useRef();
   const menuId = "main-menu";
 
+
   useOnClickOutside(node, () => setOpen(false));
 
   useEffect(() => {
